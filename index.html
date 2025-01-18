@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherNow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">WeatherNow</div>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Check Weather Instantly</h1>
+        <p>Enter any city to know its current weather conditions.</p>
+        <div class="search-bar">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Search</button>
+        </div>
+    </section>
+
+    <!-- Weather Results Section -->
+    <section class="weather-results">
+        <div class="box">
+        <h2 id="city-name">City: --</h2>
+        <p id="temperature">Temperature: --°C</p>
+        <p id="wind-speed">Wind Speed: -- km/h</p>
+        <p id="weather-description">Weather: --</p>
+    </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 WeatherNow | Powered by OpenWeather API</p>
+        <div class="social-icons">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
